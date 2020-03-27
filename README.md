@@ -5,3 +5,5 @@ This is the [repository](https://github.com/PatternRec2020/PatPat2020/) for our 
 Use jupyter notebook to edit the .ipynb file. Version of python : 3.7.4
 ## Dataset
 Create a folder named "dataset" at the root of your working directory. In it, create a subfolder named "csv" and put all the required dataset of format .csv in it.
+
+Test d'edit de la part de Kilian
