@@ -9,6 +9,7 @@
 ## Best results
 * Learning rate = 0.1
 * Validation accuracy = 98.28%
+
 Training and validation loss plot :
 
 ![](images/loss.png)
