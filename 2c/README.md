@@ -17,3 +17,6 @@ Training and validation loss plot :
 Training and validation accuracy plot :
 
 ![](images/accuracy.png)
+
+## Final accuracy on test set
+Accuracy on the test dataset = 98.27%
