@@ -50,12 +50,12 @@ class PR_CNN(nn.Module):
         super(PR_CNN, self).__init__()
 
         # PR_FILL_HERE: Here you have to put the expected input size in terms of width and height of your input image
-        self.expected_input_size = (______, ______)
+        self.expected_input_size = (28, 28)
 
         # First layer
         self.conv1 = nn.Sequential(
             # PR_FILL_HERE: Here you have to put the input channels, output channels ands the kernel size
-            nn.Conv2d(in_channels=______, out_channels=______, kernel_size=______, stride=3),
+            nn.Conv2d(in_channels=1, out_channels=24, kernel_size=9, stride=3),
             nn.LeakyReLU()
         )
 
@@ -63,7 +63,7 @@ class PR_CNN(nn.Module):
         self.fc = nn.Sequential(
             Flatten(),
             # PR_FILL_HERE: Here you have to put the output size of the linear layer. DO NOT change 1536!
-            nn.Linear(1536, ______)
+            nn.Linear(1536, 10)
         )
 
     def forward(self, x):
