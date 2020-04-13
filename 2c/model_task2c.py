@@ -55,7 +55,7 @@ class PR_CNN(nn.Module):
         # First layer
         self.conv1 = nn.Sequential(
             # PR_FILL_HERE: Here you have to put the input channels, output channels ands the kernel size
-            nn.Conv2d(in_channels=3, out_channels=24, kernel_size=5, stride=3),
+            nn.Conv2d(in_channels=1, out_channels=24, kernel_size=9, stride=3),
             nn.LeakyReLU()
         )
 
