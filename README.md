@@ -4,4 +4,10 @@ This is the [repository](https://github.com/PatternRec2020/PatPat2020/) for our 
 ## Start Guide
 Use jupyter notebook to edit the .ipynb file. Version of python : 3.7.4
 ## Dataset
-Create a folder named "dataset" at the root of your working directory. In it, create a subfolder named "csv" and put all the required dataset of format .csv in it.
+Create a folder named "dataset" at the root of the project.
+### For 2a, 2b, 2c
+ In the dataset folder:
+ * create a subfolder named "csv" and put all the required csv dataset. 
+ * create a subfolder named "png" and put all the required png dataset.
+ ### For 2d
+ In the dataset folder, unzip the file mnist-permutated-png-format. It should create a folder called `mnist-permutated-png-format`
