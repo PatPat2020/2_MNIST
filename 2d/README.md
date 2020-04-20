@@ -1,14 +1,15 @@
 # Results of exercise 2d
 ### Comparing 2b and 2d: MLP Classifier
-For exercise 2b we found that the optimal learning rate for the classifier was 0.001 and it lead to a validation accuracy of ??%.
+For exercise 2b we found that the optimal learning rate for the classifier was 0.001 and it lead to a validation accuracy of 97.39%.
 In exercise 2d we utlized the same method on the permutated MNIST and found that the optimal learning rate was 0.001 and the validation accuracy was 95.34%. <br>
-Our test set accuracy in 2c was ??%. 
+Our test set accuracy in 2c was 97.45%. 
 Our test set accuracy in 2d was 95.93%.
 <br>
 Comparing the results from the plotted accuracy and loss: <br>
 <b> Accuracy 
-    
+    The accuracy for both 2b and 2d was similar in shape. There were no major peaks and troughs for the validation set. The validation set in 2b stabilized quickly whereas in 2d it increased a bit before stabilizing. Since only one hidden layer is utilized this could account for the non-complex accuracy curve.
 <b> Loss
+    The loss curves mirror the accuracy found. We can observe that loss decreases as the number of epochs increase and this is what we would expect as we continue to train our system.
     
 ### Comparing 2c and 2d: CNN Classifier
 For exercise 2c we found that the optimal learning rate for the classifier was 0.1 and it lead to a validation accuracy of 98.53%.
