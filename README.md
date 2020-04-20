@@ -11,3 +11,6 @@ Create a folder named "dataset" at the root of the project.
  * create a subfolder named "png" and put all the required png dataset.
  ### For 2d
  In the dataset folder, unzip the file mnist-permutated-png-format. It should create a folder called `mnist-permutated-png-format`
+
+## Rendering of jupyter notebooks
+If the rendering does not work on github, please copy the url of the file [here](https://nbviewer.jupyter.org/)
